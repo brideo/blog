@@ -1,0 +1,25 @@
+<style>
+    .parent-category li ul {
+        display: none;
+    }
+    {% for category in site.categories %}
+        .parent-category li.{{ category | first }}:hover ul {
+            display: block;
+        }
+    {% endfor %}
+</style>
+<ul class="parent-category">
+    {% for category in site.categories %}
+        <li class="{{ category | first }}">
+            <a href="{{ category | first }}">{{ category | first }}</a>
+            <ul>
+                {% for posts in category %}
+                    {% for post in posts %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+
