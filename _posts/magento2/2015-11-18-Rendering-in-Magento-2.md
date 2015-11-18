@@ -309,7 +309,7 @@ Containers do not contain any content, they just determine the layout of a page;
  
 ![Visual block representation](https://alankent.files.wordpress.com/2015/01/term-blocks-content.jpg)
   
-Source (Which I really recommend reading): (http://alankent.me/2015/01/24/magento-2-containers-and-blocks/)[Alan Kent - MAGENTO 2 CONTAINERS AND BLOCKS]
+Source (Which I really recommend reading): [Alan Kent - MAGENTO 2 CONTAINERS AND BLOCKS](http://alankent.me/2015/01/24/magento-2-containers-and-blocks/)
 
 Remember I mentioned the `Page::renderPage()` method earlier, this calls the `rootTemplate` block, this template is `root.phtml`:
 
