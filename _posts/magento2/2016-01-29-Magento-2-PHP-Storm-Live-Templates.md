@@ -252,7 +252,7 @@ class $CLASS$ extends Container
 {% highlight ruby %}
 <?php
 
-    namespace $NAMESPACE$;
+namespace $NAMESPACE$;
 
 use PHPUnit_Framework_TestCase;
 
