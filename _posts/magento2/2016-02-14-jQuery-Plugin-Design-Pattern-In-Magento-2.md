@@ -12,7 +12,7 @@ This blog post will be going the design pattern for a jQuery plugin. If you want
 
 The plugin we are going to create is a really simple element color changer, the example is purely for demo purposes to give you an insight into the design pattern.
 
-Here is what out initial template should look, there is no actual business logic in this file yet, it's just declaring our namespace and setting the default color to `blue`.
+Here is what our initial template should look like, there is no actual business logic in this file yet, it's just declaring our namespace and setting the default color to `blue`.
 
 I have commented each section of the code to help provide some clarity of the internals.
 
